@@ -9,11 +9,11 @@ Parameters:
 
 | Name  | Displayname | type | Default | Values | Opional/Required | Comments |
 | ------------- | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | ------------- |
-| dockerImage |  | String |  |  | Required |  |
-| dockerImageTag |  | String |  |  | Required |  |
-| azureSubscription |  | String |  |  | Required |  |
-| resourceGroup |  | String |  |  | Required |  |
-| containerAppName |  | String |  |  | Required |  |
+| dockerImage | Docker image to build | String |  |  | Required | Specify the Docker image to build |
+| dockerImageTag | Docker image tag | String |  |  | Required |  |
+| azureSubscription | Azure Resource Manager connection | String |  |  | Required | Specify an Azure Resource Manager service connection for the deployment. This service connection must be linked to the user's Azure Subscription where the Container App will be created/updated. |
+| resourceGroup | Azure resource group name | String |  |  | Optional | The existing resource group that the Azure Container App will be created in (or currently exists in). If not provided, this value will be in the form of <container-app-name>-rg |
+| containerAppName | Azure Container App name | String |  |  | Required | The name of the Azure Container App that will be created or updated. If not provided, this value will be in the form of ado-task-app-<build-id>-<build-number> |
 
 
 These parameters provide multiple use case options for the template, enable/disable flags for the utilization of different templates as per the requirements.
