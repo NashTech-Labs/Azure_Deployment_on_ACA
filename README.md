@@ -16,7 +16,7 @@ Parameters:
 | containerAppName |  | String |  |  | Required |  |
 
 
-These parameters provide multiple use case options for the dotnet templates pipeline, enable/disable flags for the utilization of different templates as per the requirements.
+These parameters provide multiple use case options for the template, enable/disable flags for the utilization of different templates as per the requirements.
 
 
 ## Use Cases
