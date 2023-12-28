@@ -40,7 +40,8 @@ You can directly call a particular template as per the requirement. for example:
       azureSubscription: ${{ parameters.azureSubscription }}
       containerAppName: ${{ parameters.containerAppName }}
       resourceGroup: ${{ parameters.resourceGroup }}
-      imageToDeploy: ${{ parameters.dockerImage }}:${{ parameters.dockerImageTag }}
+      dockerImage: ${{ parameters.dockerImage }}
+      dockerImageTag: ${{ parameters.dockerImageTag }}
         
   
 Make sure to adjust the repository name, branch name, and parameter values according to your project's requirements.
