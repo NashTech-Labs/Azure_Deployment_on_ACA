@@ -31,7 +31,7 @@ You can directly call a particular template as per the requirement. for example:
 
   steps:
   # passing the parameters
-  - template: deployment.yml
+  - template: ContainerAppDeployment.yaml
     parameters:
       azureSubscription: ${{ parameters.azureSubscription }}
       containerAppName: ${{ parameters.containerAppName }}
