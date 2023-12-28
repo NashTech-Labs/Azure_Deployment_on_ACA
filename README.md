@@ -9,7 +9,11 @@ Parameters:
 
 | Name  | Displayname | type | Default | Values | Opional/Required | Comments |
 | ------------- | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | ------------- |
-|  |  | String |  |  | Required |  |
+| dockerImage |  | String |  |  | Required |  |
+| dockerImageTag |  | String |  |  | Required |  |
+| azureSubscription |  | String |  |  | Required |  |
+| resourceGroup |  | String |  |  | Required |  |
+| containerAppName |  | String |  |  | Required |  |
 
 
 These parameters provide multiple use case options for the dotnet templates pipeline, enable/disable flags for the utilization of different templates as per the requirements.
