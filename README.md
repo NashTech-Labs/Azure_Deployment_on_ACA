@@ -29,7 +29,7 @@ You can directly call a particular template as per the requirement. for example:
   repositories:
     - repository: Template
       type: github
-      name: your_username/Azure_NugetPack
+      name: your_username/Azure_Deployment_on_ACA
       ref: <respective branch name>
       endpoint: 'githubServiceConnectioNname'
 
